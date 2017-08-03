@@ -12,14 +12,22 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+//        let metaData = MetaDataParams(entryParameters: (baseURL: (MainURL.base.rawValue, nil),
+//                                                        headerParameters: Header.data,
+//                                                        bodyParameters: nil))
+//        
+//        Request.getMetaData(metaData) { json, success in
+//            print (">>self - \(json)<<")
+//        }
+        
+        let contentItemData = ContentItemParams(entryParameters: (baseURL:(MainURL.base.rawValue, nil),
+                                                                  headerParameters: Header.data,
+                                                                  bodyParameters: nil))
+        
+        Request.getContentItem(contentItemData) { json, success in
+            print (">>self - \(json)<<")
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 

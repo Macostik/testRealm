@@ -7,11 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EF51D43D023AD65E5ABA2E5 /* Pods_TestRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7130579ECB19008490B89A9C /* Pods_TestRealm.framework */; };
 		56FA8D341F33AE8A00473384 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA8D331F33AE8A00473384 /* AppDelegate.swift */; };
 		56FA8D361F33AE8A00473384 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA8D351F33AE8A00473384 /* ViewController.swift */; };
 		56FA8D391F33AE8A00473384 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FA8D371F33AE8A00473384 /* Main.storyboard */; };
 		56FA8D3B1F33AE8A00473384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56FA8D3A1F33AE8A00473384 /* Assets.xcassets */; };
 		56FA8D3E1F33AE8A00473384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FA8D3C1F33AE8A00473384 /* LaunchScreen.storyboard */; };
+		56FA8D471F33B05B00473384 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA8D461F33B05B00473384 /* APIRequest.swift */; };
+		56FA8D491F33B07B00473384 /* EntryParamsPresentring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA8D481F33B07B00473384 /* EntryParamsPresentring.swift */; };
+		56FA8D4B1F33B09600473384 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA8D4A1F33B09600473384 /* Logger.swift */; };
+		56FA8D531F33B0FE00473384 /* SlimLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA8D4F1F33B0FE00473384 /* SlimLogger.swift */; };
+		56FA8D541F33B0FE00473384 /* SlimLoggerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA8D501F33B0FE00473384 /* SlimLoggerConfig.swift */; };
+		56FA8D551F33B0FE00473384 /* SlimLogglyDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA8D511F33B0FE00473384 /* SlimLogglyDestination.swift */; };
+		56FA8D561F33B0FE00473384 /* SlimLogglyDestinationConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA8D521F33B0FE00473384 /* SlimLogglyDestinationConfig.swift */; };
+		56FA8D591F33B46A00473384 /* UIAlertController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA8D581F33B46A00473384 /* UIAlertController+Ext.swift */; };
+		56FA8D5B1F33B56600473384 /* Storyboard+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA8D5A1F33B56600473384 /* Storyboard+Ext.swift */; };
+		56FA8D5D1F33B58600473384 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA8D5C1F33B58600473384 /* View+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,19 @@
 		56FA8D3A1F33AE8A00473384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56FA8D3D1F33AE8A00473384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56FA8D3F1F33AE8A00473384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56FA8D461F33B05B00473384 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		56FA8D481F33B07B00473384 /* EntryParamsPresentring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryParamsPresentring.swift; sourceTree = "<group>"; };
+		56FA8D4A1F33B09600473384 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		56FA8D4F1F33B0FE00473384 /* SlimLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SlimLogger.swift; path = Frameworks/SlimLogger/SlimLogger.swift; sourceTree = "<group>"; };
+		56FA8D501F33B0FE00473384 /* SlimLoggerConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SlimLoggerConfig.swift; path = Frameworks/SlimLogger/SlimLoggerConfig.swift; sourceTree = "<group>"; };
+		56FA8D511F33B0FE00473384 /* SlimLogglyDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SlimLogglyDestination.swift; path = Frameworks/SlimLogger/SlimLogglyDestination.swift; sourceTree = "<group>"; };
+		56FA8D521F33B0FE00473384 /* SlimLogglyDestinationConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SlimLogglyDestinationConfig.swift; path = Frameworks/SlimLogger/SlimLogglyDestinationConfig.swift; sourceTree = "<group>"; };
+		56FA8D581F33B46A00473384 /* UIAlertController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Ext.swift"; sourceTree = "<group>"; };
+		56FA8D5A1F33B56600473384 /* Storyboard+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+Ext.swift"; sourceTree = "<group>"; };
+		56FA8D5C1F33B58600473384 /* View+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		622A0C6EA335EC50CAF4FAF8 /* Pods-TestRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestRealm/Pods-TestRealm.release.xcconfig"; sourceTree = "<group>"; };
+		7130579ECB19008490B89A9C /* Pods_TestRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99BBECE681383BDAE1D66EF5 /* Pods-TestRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestRealm/Pods-TestRealm.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF51D43D023AD65E5ABA2E5 /* Pods_TestRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A82DA071B64AD88CE4D1B49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99BBECE681383BDAE1D66EF5 /* Pods-TestRealm.debug.xcconfig */,
+				622A0C6EA335EC50CAF4FAF8 /* Pods-TestRealm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		56FA8D271F33AE8900473384 = {
 			isa = PBXGroup;
 			children = (
 				56FA8D321F33AE8A00473384 /* TestRealm */,
 				56FA8D311F33AE8A00473384 /* Products */,
+				1A82DA071B64AD88CE4D1B49 /* Pods */,
+				D93D796ABAD04AD0DB0DAA22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +90,57 @@
 		56FA8D321F33AE8A00473384 /* TestRealm */ = {
 			isa = PBXGroup;
 			children = (
+				56FA8D571F33B45A00473384 /* Extensions */,
 				56FA8D331F33AE8A00473384 /* AppDelegate.swift */,
 				56FA8D351F33AE8A00473384 /* ViewController.swift */,
 				56FA8D371F33AE8A00473384 /* Main.storyboard */,
 				56FA8D3A1F33AE8A00473384 /* Assets.xcassets */,
 				56FA8D3C1F33AE8A00473384 /* LaunchScreen.storyboard */,
 				56FA8D3F1F33AE8A00473384 /* Info.plist */,
+				56FA8D451F33B04500473384 /* Model */,
 			);
 			path = TestRealm;
+			sourceTree = "<group>";
+		};
+		56FA8D451F33B04500473384 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				56FA8D461F33B05B00473384 /* APIRequest.swift */,
+				56FA8D481F33B07B00473384 /* EntryParamsPresentring.swift */,
+				56FA8D4A1F33B09600473384 /* Logger.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		56FA8D4E1F33B0EA00473384 /* SlimLogger */ = {
+			isa = PBXGroup;
+			children = (
+				56FA8D4F1F33B0FE00473384 /* SlimLogger.swift */,
+				56FA8D501F33B0FE00473384 /* SlimLoggerConfig.swift */,
+				56FA8D511F33B0FE00473384 /* SlimLogglyDestination.swift */,
+				56FA8D521F33B0FE00473384 /* SlimLogglyDestinationConfig.swift */,
+			);
+			name = SlimLogger;
+			sourceTree = "<group>";
+		};
+		56FA8D571F33B45A00473384 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				56FA8D5C1F33B58600473384 /* View+Ext.swift */,
+				56FA8D5A1F33B56600473384 /* Storyboard+Ext.swift */,
+				56FA8D581F33B46A00473384 /* UIAlertController+Ext.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		D93D796ABAD04AD0DB0DAA22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56FA8D4E1F33B0EA00473384 /* SlimLogger */,
+				7130579ECB19008490B89A9C /* Pods_TestRealm.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56FA8D421F33AE8A00473384 /* Build configuration list for PBXNativeTarget "TestRealm" */;
 			buildPhases = (
+				F3F009B6FEDEE2C1409B6C51 /* [CP] Check Pods Manifest.lock */,
 				56FA8D2C1F33AE8A00473384 /* Sources */,
 				56FA8D2D1F33AE8A00473384 /* Frameworks */,
 				56FA8D2E1F33AE8A00473384 /* Resources */,
+				6D3BACB7430BA58DE37BBAAF /* [CP] Embed Pods Frameworks */,
+				1589A3EB70128115431B3E27 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +214,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1589A3EB70128115431B3E27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestRealm/Pods-TestRealm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D3BACB7430BA58DE37BBAAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestRealm/Pods-TestRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3F009B6FEDEE2C1409B6C51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56FA8D2C1F33AE8A00473384 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56FA8D541F33B0FE00473384 /* SlimLoggerConfig.swift in Sources */,
+				56FA8D531F33B0FE00473384 /* SlimLogger.swift in Sources */,
+				56FA8D4B1F33B09600473384 /* Logger.swift in Sources */,
+				56FA8D551F33B0FE00473384 /* SlimLogglyDestination.swift in Sources */,
 				56FA8D361F33AE8A00473384 /* ViewController.swift in Sources */,
+				56FA8D561F33B0FE00473384 /* SlimLogglyDestinationConfig.swift in Sources */,
+				56FA8D591F33B46A00473384 /* UIAlertController+Ext.swift in Sources */,
+				56FA8D471F33B05B00473384 /* APIRequest.swift in Sources */,
+				56FA8D5D1F33B58600473384 /* View+Ext.swift in Sources */,
+				56FA8D491F33B07B00473384 /* EntryParamsPresentring.swift in Sources */,
 				56FA8D341F33AE8A00473384 /* AppDelegate.swift in Sources */,
+				56FA8D5B1F33B56600473384 /* Storyboard+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +399,7 @@
 		};
 		56FA8D431F33AE8A00473384 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99BBECE681383BDAE1D66EF5 /* Pods-TestRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 224SJKKLQ3;
@@ -267,11 +408,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuraGranchenko.TestRealm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		56FA8D441F33AE8A00473384 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 622A0C6EA335EC50CAF4FAF8 /* Pods-TestRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 224SJKKLQ3;
@@ -280,6 +423,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuraGranchenko.TestRealm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -302,6 +446,7 @@
 				56FA8D441F33AE8A00473384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
